@@ -3,20 +3,15 @@ languageCode = 'zh-cn'
 title = 'Whimsy的温暖小屋'
 theme = 'PaperMod'
 
-# 开启代码高亮与行号
 [markup.highlight]
 style = "monokai"
 lineNos = true
 
-# ==========================================
-# 全局参数配置 (PaperMod 的核心配置都放在这里)
-# ==========================================
+# 所有的全局参数都放在这里
 [params]
-math = true              # 开启数学公式渲染
-author = "Zephyr_Whimsy" # <-- 作者信息正确地放在了 params 里面
-defaultTheme = "auto"    # 默认跟随系统决定是亮色还是暗色模式
+math = true
+author = "Zephyr_Whimsy"  # 确保这行在这里
 
-# 顶部导航栏配置
 [[menu.main]]
 name = "文章"
 url = "/posts/"
