@@ -1,4 +1,4 @@
-baseURL = 'https://Wsy2006-51.github.io/'
+baseURL = 'https://zephyrwhimsy.cn/'
 languageCode = 'zh-cn'
 title = 'Whimsy的温暖小屋'
 theme = 'PaperMod'
@@ -23,7 +23,7 @@ author = "Zephyr_Whimsy"  # 确保这行在这里
 
 [[params.socialIcons]]
   name = "email"
-  url = "mailto:你的真实邮箱地址@xxx.com" # 换成你的邮箱
+  url = "mailto:siyuanwei0501@gmail.com" # 换成你的邮箱
 
 # 顶部导航栏配置
 [[menu.main]]
