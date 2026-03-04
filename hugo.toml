@@ -11,13 +11,45 @@ lineNos = true
 [params]
 math = true
 author = "Zephyr_Whimsy"  # 确保这行在这里
+# 首页个人信息模块 (UI 核心)
+[params.homeInfoParams]
+  Title = "👋 欢迎来到 Whimsy 的主页"
+  Content = "这里是我记录科研探索、代码实践（C++/Python）以及读书笔记的自留地。目前主要关注具身智能（Embodied AI）与前沿科技方向。"
 
+# 首页社交链接图标
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/Wsy2006-51"
+
+[[params.socialIcons]]
+  name = "email"
+  url = "mailto:你的真实邮箱地址@xxx.com" # 换成你的邮箱
+
+# 顶部导航栏配置
 [[menu.main]]
-name = "文章"
-url = "/posts/"
+name = "🏠 首页"
+url = "/"
 weight = 1
 
 [[menu.main]]
-name = "标签"
-url = "/tags/"
+name = "📚 文章"
+url = "/posts/"
 weight = 2
+
+[[menu.main]]
+name = "🗂️ 分类"
+url = "/categories/"
+weight = 3
+
+[[menu.main]]
+name = "🏷️ 标签"
+url = "/tags/"
+weight = 4
+
+[[menu.main]]
+name = "🔍 搜索"
+url = "/search/"
+weight = 5
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
